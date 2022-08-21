@@ -1,0 +1,25 @@
+.Headwrapper{
+    /* to make responsive */
+    min-height:90vh;   
+    height: auto;
+    width:100%;
+   
+
+  
+
+ }
+ .Headercontainer{
+    min-height:90vh;
+    height: auto;
+    width:100%;
+}
+
+.Bgimage{
+    width:100%;
+    opacity: 0.8;
+    object-fit: cover;
+    min-height:90vh;
+    height: auto;
+}
+ 
+ 

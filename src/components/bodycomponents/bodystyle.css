@@ -1,0 +1,50 @@
+.About{
+    background-color: #CAF0F8;
+    padding: 60px;
+}
+.AboutTitle{
+    text-align: center;
+    padding: 8px;
+    
+}
+.skills{
+    background-color: #CAF0F8;
+    padding: 60px;
+}
+.SkillsTitle{
+    text-align: center;
+    padding: 8px;
+    text-decoration: underline;
+    background-color: blueviolet;
+}
+.skillscard{
+    width: 180px;
+    height: 50px;
+    
+    text-align: center;
+   
+}
+.skillsbox{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: 15px;
+    margin-left: auto;
+}
+.cardcontent{
+    color: black;
+}
+.Project{
+    background-color: #CAF0F8;
+    padding: 60px;
+}
+.ProjectTitle{
+    text-align: center;
+    padding: 8px;
+}
+.projectCard{
+    margin-top: 10px;
+}
+
+

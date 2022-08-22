@@ -1,25 +1,50 @@
-.Headwrapper{
-    /* to make responsive */
-    min-height:90vh;   
-    height: auto;
-    width:100%;
-   
+ .Headwrapper{
+ width: 100%;
+ min-height: 90vh;
+ height: auto;
+  /* background: url("https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png"); 
+  background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
 
+ opacity: 0.6; */
+
+} 
+.toolbar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.Headercontainer{
+    width: 85%;
+    min-height: 90vh;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap ;
+    padding: 20px;
+    margin-left: 50px;
   
-
- }
- .Headercontainer{
-    min-height:90vh;
-    height: auto;
-    width:100%;
+    /* align-items: center; */
+    justify-content: center;
 }
-
-.Bgimage{
-    width:100%;
-    opacity: 0.8;
-    object-fit: cover;
-    min-height:90vh;
-    height: auto;
+.headerTitle{
+    font-size: 3rem;
+   
 }
- 
+.headerDescription{
+    font-size: 2rem;
+}
+.resume{
+    letter-spacing: 0.14em;
+    font-size: 0.880rem;
+    min-width: 150px;
+    font-weight: 600;
+   padding: 30px;
+   margin-top: 30px;
+}
+/* @media screen and (max-width: 320px) {
+    .headerTitle{
+        font-size: 1rem;
+    }
+  } */
  

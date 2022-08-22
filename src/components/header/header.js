@@ -1,7 +1,13 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
 import { Theme } from "../Theme";
 import "./header.css";
+import Navbar from "./navbar";
+import Button from '@mui/material/Button';
+
+
+
 export default function Header() {
   // const Theme={
 
@@ -14,23 +20,34 @@ export default function Header() {
   // };
   const styles = {
     backgroundColor: Theme.colors.primary1,
+   
   };
+//   const headerstyles = (theme) => ({
+//     headerTitle: {
+//         fontSize: '3rem',
+//       [theme.breakpoints.down('xs')]: {
+//         fontSize: '2rem',
+       
+//       },
+    
+//     },
+//   });
 
   return (
     <Box className="Headwrapper" style={styles}>
+        <Navbar/>
       <Box className="Headercontainer" >
-      {/* <img
-        src="https://www.communicationcrafts.com/wp-content/uploads/2020/11/Expert-knowledge.jpg"
-        alt="Full stack developer" className="Bgimage"
-      ></img> */}
-
-<img
-        src="https://www.hays.com.au/documents/3173609/3716998/Image_Tech_Job_Software_Developer_LandingPage.jpg/482fcd02-18cd-7adc-69ec-2810709139af?t=1618902865233"
-        alt="Full stack developer" className="Bgimage"
-      ></img>
-
-      </Box>
+      
+      <Typography variant="h3" component='h4' className="headerTitle" >Hello,I am Ayushi!</Typography>
+      <Typography variant="h4" component='h4' className="headerDescription">I am a full Stack Developer</Typography>
+      <Box className='resume'>
+    <Button variant="contained">Resume</Button>
+     </Box>
+    
     
     </Box>
+   
+    </Box>
+    
   );
 }

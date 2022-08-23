@@ -46,5 +46,68 @@
 .projectCard{
     margin-top: 10px;
 }
+.Contact{
+    background-color: #CAF0F8;
+    padding: 60px;
+    
+}
+.Contactform{
+    margin-top: 40px;
+}
+.Container1{
+    margin:10px;
+}
+.Container2{
+    margin:10px;
+}
+.Container3{
+    margin:10px;
+}
+.contactnumber{
+    width: 240px;
+    height: 80px;
+    margin-left: 60px;
+    text-align:justify
+    
+}
+.cardcontent{
+    font-size: 14px;
+    font-weight: 900;
+     background-color: antiquewhite;
+}
+.cardnumber{
+    font-size: 10px;
+    font-weight: 900;
+}
+.mycontact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin: 20px;
+}
+.footerContainer{
+    background-color:#00B4D8 ;
+    position: relative;
+   }
+/* .iconbutton{
+    position: absolute;
+    right: 5;
+    top:15;
+    color:yellow;
+} */
+.footertext{
+    text-align: center;
+ 
+    margin-bottom: 2px;
+}
+.drawer{
+   width: 250px;
+   height: 100vh; 
+}
+.drawerContainer{
+    width: 250px;
+    height: 100vh; 
+    background-color:blue;
+}
 
 

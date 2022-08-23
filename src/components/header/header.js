@@ -4,20 +4,16 @@ import Typography from "@mui/material/Typography";
 import { Theme } from "../Theme";
 import "./header.css";
 import Navbar from "./navbar";
+import Drawercomponent from "./Drawer";
 import Button from '@mui/material/Button';
+import { useState } from "react";
+import Drawer from '@mui/material/Drawer';
+
 
 
 
 export default function Header() {
-  // const Theme={
-
-  //     colors:{
-  //         base1:"#0096FF",
-  //         base2:"#72FFFF",
-  //         primary:"#00D7FF",
-  //         primary1:"#5800FF",
-  //     },
-  // };
+ 
   const styles = {
     backgroundColor: Theme.colors.primary1,
    
@@ -32,10 +28,22 @@ export default function Header() {
     
 //     },
 //   });
-
+  const [initialState,setInitialState]= useState(false);
+  const handleDrawerToogler=()=>{
+    setInitialState(!initialState);
+  };
+  const navlinks=[
+    {label:'Home',Id:"Home"},
+    {label:'About',Id:"About"},
+    {label:'Skills',Id:"Skills"},
+    {label:'Projects',Id:"Projects"},
+    {label:'Contact',Id:"Contact"},
+    
+];
   return (
     <Box className="Headwrapper" style={styles}>
-        <Navbar/>
+        <Navbar navlinks={navlinks} handleDrawerToogler={handleDrawerToogler}/>
+        < Drawercomponent initialState={initialState} navlinks={navlinks} handleDrawerToogler={handleDrawerToogler}/>
       <Box className="Headercontainer" >
       
       <Typography variant="h3" component='h4' className="headerTitle" >Hello,I am Ayushi!</Typography>

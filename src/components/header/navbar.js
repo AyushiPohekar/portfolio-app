@@ -10,15 +10,8 @@ import { Hidden } from '@mui/material';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import "./header.css";
 
-export default function navbar() {
-    const navlinks=[
-        {label:'Home',Id:"Home"},
-        {label:'About',Id:"About"},
-        {label:'Skills',Id:"Skills"},
-        {label:'Projects',Id:"Projects"},
-        {label:'Contact',Id:"Contact"},
-        
-    ];
+export default function navbar({navlinks,handleDrawerToogler}) {
+   
   return (
     <AppBar position="fixed" className='navbar'>
     <Toolbar className='toolbar'>
@@ -33,7 +26,7 @@ export default function navbar() {
       </Box>
       </Box>
       <Box sx={{ display: { sm: 'none', xs: 'block' } }}>
-        <IconButton color='inherit'onClick={()=>console.log('menu clicked')}>
+        <IconButton color='inherit'onClick={handleDrawerToogler}>
             <MenuOpenIcon/>
         </IconButton>
       </Box>

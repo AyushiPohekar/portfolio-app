@@ -4,6 +4,7 @@ import './bodystyle.css'
 import IconButton from '@mui/material/IconButton';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Typography from "@mui/material/Typography";
+import {Link} from 'react-scroll';
 
 export default function Footer() {
     const styles={
@@ -14,9 +15,10 @@ export default function Footer() {
     backgroundColor:'#03045E',
     };
   return (
-  <Box className='footerContainer'>
+  <Box className='footerContainer' id={Footer}>
   
- <IconButton className='iconbutton' style={styles}>
+ <IconButton className='iconbutton' style={styles}
+ >
     <ArrowUpwardIcon/>
  </IconButton>
  <Typography variant="body1" component='h4' className="footertext" >Made by Ayushi with ❤</Typography>

@@ -1,21 +1,31 @@
-.About{
-    background-color: #CAF0F8;
+.about{
+    background-color:#16213E;
     padding: 60px;
+    color:white;
+    justify-content: center;
 }
 .AboutTitle{
     text-align: center;
-    padding: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #0F3460;
+    text-decoration: underline;
+  
     
 }
+.Aboutdescription{
+    margin-top: 5px;
+}
 .skills{
-    background-color: #CAF0F8;
+    background-color: #16213E;
     padding: 60px;
 }
 .SkillsTitle{
     text-align: center;
     padding: 8px;
     text-decoration: underline;
-    background-color: blueviolet;
+    background-color: #0F3460;
+    color: white;
 }
 .skillscard{
     width: 180px;
@@ -36,18 +46,21 @@
     color: black;
 }
 .Project{
-    background-color: #CAF0F8;
+    background-color: #16213E;
     padding: 60px;
 }
 .ProjectTitle{
     text-align: center;
     padding: 8px;
+    text-decoration: underline;
+    background-color: #0F3460;
+    color: white;
 }
 .projectCard{
     margin-top: 10px;
 }
-.Contact{
-    background-color: #CAF0F8;
+.contact{
+    background-color:#D8B9C3;
     padding: 60px;
     
 }
@@ -86,7 +99,7 @@
     margin: 20px;
 }
 .footerContainer{
-    background-color:#00B4D8 ;
+    background-color:#1259f1 ;
     position: relative;
    }
 /* .iconbutton{
@@ -107,7 +120,7 @@
 .drawerContainer{
     width: 250px;
     height: 100vh; 
-    background-color:blue;
+    background-color:#1A1A2E;
 }
 
 

@@ -1,3 +1,11 @@
+ .myname{
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 30px black;
+    text-decoration: wavy;
+   
+ }
+ 
  .Headwrapper{
  width: 100%;
  min-height: 90vh;
@@ -23,24 +31,32 @@ background-position:center;
     flex-flow: column wrap ;
     padding: 20px;
     margin-left: 50px;
-  
+    gap: 20px;
     /* align-items: center; */
     justify-content: center;
 }
 .headerTitle{
     font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fb8500;
+    text-shadow: 30px;
+    font-weight:bolder;
    
 }
 .headerDescription{
     font-size: 2rem;
+    margin-top: 50px;
+    font-weight: 400;
+    color: antiquewhite;
+    text-shadow: 30px;
 }
 .resume{
     letter-spacing: 0.14em;
     font-size: 0.880rem;
-    min-width: 150px;
+    min-width: 250px;
     font-weight: 600;
-   padding: 30px;
-   margin-top: 30px;
+   padding: 40px;
+   /* margin-top: 30px; */
 }
 .listitem{
     color:white

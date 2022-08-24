@@ -23,7 +23,7 @@ export default function Project() {
     },];
     // const navigate = useNavigate();
   return (
-    <Box className="Project">
+    <Box className="Project" id='Projects'>
       <Typography variant="h4" component="h4" className="ProjectTitle">
         Projects
       </Typography>

@@ -8,7 +8,7 @@ import './bodystyle.css'
 
 export default function Skills() {
   return (
-    <Box className='skills'>
+    <Box className='skills' id='Skills'>
          <Typography variant="h4" component='h4' className="SkillsTitle" >My skills</Typography>
          <Box className='skillsbox'>
      <Card className='skillscard'>

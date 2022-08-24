@@ -19,7 +19,7 @@ export default function Contact() {
     console.log('submitted',name,email,message)
   }
   return (
-    <Box className="Contact">
+    <Box className="contact" id='Contact'>
       <Typography variant="h4" component="h4" className="SkillsTitle">
         Contact
       </Typography>
@@ -60,6 +60,7 @@ export default function Contact() {
           <Grid item xs={12} sm={6}>
             <TextField
               value={name}
+             
               label="Name"
               variant="outlined"
               fullWidth={true}

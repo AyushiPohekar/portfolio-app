@@ -39,14 +39,15 @@ export default function Header() {
     {label:'Projects',Id:"Projects"},
     {label:'Contact',Id:"Contact"},
     
+    
 ];
   return (
-    <Box className="Headwrapper" style={styles}>
+    <Box className="Headwrapper" style={styles} id='header'>
         <Navbar navlinks={navlinks} handleDrawerToogler={handleDrawerToogler}/>
         < Drawercomponent initialState={initialState} navlinks={navlinks} handleDrawerToogler={handleDrawerToogler}/>
       <Box className="Headercontainer" >
       
-      <Typography variant="h3" component='h4' className="headerTitle" >Hello,I am Ayushi!</Typography>
+      <Typography variant="h3" component='h4' className="headerTitle" >Hello,I am Ayushi!👩‍💻</Typography>
       <Typography variant="h4" component='h4' className="headerDescription">I am a full Stack Developer</Typography>
       <Box className='resume'>
     <Button variant="contained">Resume</Button>

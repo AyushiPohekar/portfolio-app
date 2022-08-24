@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 import './bodystyle.css'
 export default function About() {
   return (
-    <Box className="About">
+    <Box className="about" id='About'>
      <Typography variant="h4" component='h4' className="AboutTitle" >About me</Typography>
       <Box className='Aboutdescription'>
         Goal-oriented full stack developer with a passion for working on a

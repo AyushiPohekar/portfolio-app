@@ -51,7 +51,8 @@ export default function Header() {
         </Typography>
         <Box className="resume">
           <a
-            href="https://drive.google.com/file/d/1w09SWiwo57wrEhLe5724udL6CrFLwTSe/view?usp=sharing" target='_blank'
+            href="https://drive.google.com/file/d/1w09SWiwo57wrEhLe5724udL6CrFLwTSe/view?usp=sharing"
+            target="_blank"
             id="Buttonresume"
           >
             <Button color="inherit">Resume</Button>

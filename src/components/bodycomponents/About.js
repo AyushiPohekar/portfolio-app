@@ -9,7 +9,6 @@ export default function About() {
         About me
       </Typography>
       <Box className="Aboutdescription">
-  
         I am an Electrical Engineer by education who started exploring the
         fascinating world of Mern Stack Development .In this exciting journey
         till now I learned many technologies. I have passion for working on

@@ -1,20 +1,23 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import './bodystyle.css'
+import "./bodystyle.css";
 export default function About() {
   return (
-    <Box className="about" id='About'>
-     <Typography variant="h4" component='h4' className="AboutTitle" >About me</Typography>
-      <Box className='Aboutdescription'>
-        Goal-oriented full stack developer with a passion for working on a
-        project that solves problems with thoughtful UI design, creating
-        intuitive, dynamic user experiences powered by strong backend. My core
-        competency lies in developing applications from its inception. I
-        primarily work with MERN stack among the full stack technologies. As a
-        full stack developer, I enjoy using my obsessive attention to detail, my
-        unequivocal love for making things, and my mission-driven work ethic to
-        revolutionize the project I work on.
+    <Box className="about" id="About">
+      <Typography variant="h4" component="h4" className="AboutTitle">
+        About me
+      </Typography>
+      <Box className="Aboutdescription">
+  
+        I am an Electrical Engineer by education who started exploring the
+        fascinating world of Mern Stack Development .In this exciting journey
+        till now I learned many technologies. I have passion for working on
+        projects that involves problem solving,creating
+        attractive,unique,user-friendly UI designs and User-Interface that is
+        dynamic.I also like to support it with strong backend.I have interest in
+        MERN stack i.e.MongoDB,ExpressJS,ReactJS,NodeJS. I am hard-working
+        individual who focus on details and problem solving.
       </Box>
     </Box>
   );

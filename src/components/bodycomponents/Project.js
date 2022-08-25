@@ -45,9 +45,10 @@ export default function Project() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" >Demo</Button>
-        <Button size="small">frontendlink</Button>
-        <Button size="small">backendlink</Button>
+      <a href="https://shiny-alpaca-b00810.netlify.app/" target="_blank" className='demo'> <Button size="small" >Demo</Button></a>
+      <a href="https://github.com/AyushiPohekar/guvi-hacathon-2-frontend" target="_blank" className='demo'> <Button size="small">frontendlink</Button></a>
+      <a href="https://github.com/AyushiPohekar/guvi-hacathon2-backend" target="_blank" className='demo'> <Button size="small">backendlink</Button></a>
+        
       </CardActions>
     </Card>
       

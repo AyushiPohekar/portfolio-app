@@ -16,11 +16,11 @@ export default function Footer() {
     };
   return (
   <Box className='footerContainer' id={Footer}>
-  
- <IconButton className='iconbutton' style={styles}
+  <a href="#Home"><IconButton className='iconbutton' style={styles}
  >
     <ArrowUpwardIcon/>
- </IconButton>
+ </IconButton></a>
+ 
  <Typography variant="body1" component='h4' className="footertext" >Made by Ayushi with ❤</Typography>
 
   </Box>

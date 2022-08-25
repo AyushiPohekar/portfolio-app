@@ -15,6 +15,7 @@
 }
 .Aboutdescription{
     margin-top: 5px;
+    word-spacing: 2.5px;
 }
 .skills{
     background-color: #16213E;
@@ -122,5 +123,9 @@
     height: 100vh; 
     background-color:#1A1A2E;
 }
+ .Buttons{
+    text-decoration: none;
+    color:white;
+ }
 
 

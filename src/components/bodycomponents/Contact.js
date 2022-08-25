@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <Box className="contact" id='Contact'>
       <Typography variant="h4" component="h4" className="SkillsTitle">
-        Contact
+        Contact Me✋
       </Typography>
       <Box className='mycontact'>
       <Card className='contactnumber'>

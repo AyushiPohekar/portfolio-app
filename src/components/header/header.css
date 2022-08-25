@@ -1,69 +1,113 @@
- .myname{
-    font-style: italic;
-    font-weight: bolder;
-    text-shadow: 30px black;
-    text-decoration: wavy;
-   
- }
- 
- .Headwrapper{
- width: 100%;
- min-height: 90vh;
- height: auto;
+.myname {
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: 30px black;
+  text-decoration: wavy;
+}
+
+.Headwrapper {
+  width: 100%;
+  min-height: 90vh;
+  height: auto;
   /* background: url("https://assets.justinmind.com/wp-content/uploads/2019/10/best-20-web-development-blogs.png"); 
   background-repeat:no-repeat;
 background-size:contain;
 background-position:center;
 
  opacity: 0.6; */
-
-} 
-.toolbar{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
 }
-.Headercontainer{
-    width: 85%;
-    min-height: 90vh;
-    height: auto;
-    display: flex;
-    flex-flow: column wrap ;
-    padding: 20px;
-    margin-left: 50px;
-    gap: 20px;
-    /* align-items: center; */
-    justify-content: center;
+.toolbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
-.headerTitle{
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #fb8500;
-    text-shadow: 30px;
-    font-weight:bolder;
-   
+.Headercontainer {
+  width: 85%;
+  min-height: 90vh;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px;
+  margin-left: 50px;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: center;
 }
-.headerDescription{
-    font-size: 2rem;
-    margin-top: 50px;
-    font-weight: 400;
-    color: antiquewhite;
-    text-shadow: 30px;
+.headerTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fb8500;
+  text-shadow: 30px;
+  font-weight: bolder;
 }
-.resume{
-    letter-spacing: 0.14em;
-    font-size: 0.880rem;
-    min-width: 250px;
-    font-weight: 600;
-   padding: 40px;
-   /* margin-top: 30px; */
+.headerDescription {
+  font-size: 2rem;
+  margin-top: 50px;
+  font-weight: 400;
+  color: antiquewhite;
+  text-shadow: 30px;
 }
-.listitem{
-    color:white
+.resume {
+  letter-spacing: 0.14em;
+  font-size: 0.88rem;
+  min-width: 250px;
+  font-weight: 600;
+  padding: 40px;
+  /* margin-top: 30px; */
+}
+.listitem {
+  color: white;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 /* @media screen and (max-width: 320px) {
     .headerTitle{
         font-size: 1rem;
     }
   } */
- 
+#Buttons {
+  text-decoration: none;
+  color: white;
+}
+.demo {
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #16213e;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.drawernav a:hover {
+  background-color: blue;
+}
+.drawernav a {
+  display: block;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#Buttonresume {
+  text-decoration: none;
+  color: white;
+  background-color: #03915d;
+  padding: 10px 18px;
+  margin-left: 90px;
+}
+#Buttonresume:hover {
+  background-color: rgb(8, 136, 187);
+}

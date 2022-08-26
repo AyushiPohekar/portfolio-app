@@ -17,6 +17,10 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("submitted", name, email, message);
+    setName('');
+    setEmail('');
+    setMessage('');
+    alert("message sent successfully")
   };
   return (
     <Box className="contact" id="Contact">
